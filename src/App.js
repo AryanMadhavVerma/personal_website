@@ -105,7 +105,7 @@ const App = () => {
       <div className='section px-10 py-4 sm:px-20 md:px-60'>
         <h2 className='text-xl pb-1'>Work</h2>
         <p className='text-base md:text-lg'>
-            <p>Check my <a className='underliner' href='https://drive.google.com/file/d/1zIdXHmpKKllQgOjA9PGBSysMxToGmdx8/view?usp=sharing' target="_blank" rel="noopener noreferrer">resume</a> for detailed work experience. For my open-source contributions, head over to <a className='underliner' href='https://github.com/AryanMadhavVerma' target="_blank" rel="noopener noreferrer">github</a>.</p>
+            <p>Check my <a className='underliner' href='https://drive.google.com/file/d/1ONIOuNbkzMwLscAZcYMBUydJOTW3P1YS/view?usp=sharing' target="_blank" rel="noopener noreferrer">resume</a> for detailed work experience. For my open-source contributions, head over to <a className='underliner' href='https://github.com/AryanMadhavVerma' target="_blank" rel="noopener noreferrer">github</a>.</p>
             <br></br>
             <p>Since first year, I've tasted multiple domains. From pursuing consulting in my initial years in college, to switching to product and growth to get more skin in the game, I learned a lot. 
               Working in b2b SaaS for more than year, I realized I want to go deeper into problems, which led me to transition into tech. Eventually, I became a full-stack developer building my own micro-SaaS tools. </p>
