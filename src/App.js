@@ -105,7 +105,7 @@ const App = () => {
       <div className='section px-10 py-4 sm:px-20 md:px-60'>
         <h2 className='text-xl pb-1'>Work</h2>
         <p className='text-base md:text-lg'>
-            <p>Check my <a className='underliner' href='https://drive.google.com/file/d/1ONIOuNbkzMwLscAZcYMBUydJOTW3P1YS/view?usp=sharing' target="_blank" rel="noopener noreferrer">resume</a> for detailed work experience. For my open-source contributions, head over to <a className='underliner' href='https://github.com/AryanMadhavVerma' target="_blank" rel="noopener noreferrer">github</a>.</p>
+            <p>Check my <a className='underliner' href='https://drive.google.com/file/d/1CRANggTtfHuqVyYT9F1PFwYwdjNIkY45/view?usp=sharing' target="_blank" rel="noopener noreferrer">resume</a> for detailed work experience. For my open-source contributions, head over to <a className='underliner' href='https://github.com/AryanMadhavVerma' target="_blank" rel="noopener noreferrer">github</a>.</p>
             <br></br>
             <p>Since first year, I've tasted multiple domains. From pursuing consulting in my initial years in college, to switching to product and growth to get more skin in the game, I learned a lot. 
               Working in b2b SaaS for more than year, I realized I want to go deeper into problems, which led me to transition into tech. Eventually, I became a full-stack developer building my own micro-SaaS tools. </p>
@@ -131,9 +131,8 @@ const App = () => {
             &&
           
               <div>
-                  <div className='work-item pt-4 pb-2'>
-                  <p className='text-base md:text-lg font-bold py-2'>recaller.live<span className='subp px-2 font-normal'>personal project</span></p>
-                  <p className='text-base md:text-lg'><A link = 'http://recaller.live' text = 'recaller'/> is a micro-app I created to cater to my need to get whatever I wrote directly on my email, in scheduled intervals of time. Didn’t want to do my writing work on an email inbox and wanted a clutter free environment for it. Have written a bit about the ‘why’ for this app on <A link='https://twitter.com/aryanmadhaverma/status/1597903921787596800?s=20&t=fVqn8L6nWlF4WXbUXPOLbg' text = 'this thread'/>. The whole app is created using a NodeJs backend along with a React frontend hosted on DigitalOcean.</p>
+                  <div className='work-item pt-4'>
+                  <p className='text-base md:text-lg font-light py-2'>For projects, <span className='subp px-2 font-normal'><a className='link highlight font-light' href='https://github.com/AryanMadhavVerma' target="_blank" rel="noopener noreferrer">checkout github</a></span></p>
                   </div>
                   <div className='work-item py-2'>
                   <p className='text-base md:text-lg font-bold py-2'>Houseware<span className='subp px-2 font-normal'>product & analytics eng</span></p>
