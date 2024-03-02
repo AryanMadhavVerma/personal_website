@@ -19,7 +19,7 @@ const Cat = ({ line }) => {
 
   const DATA = {
     about:
-      "software engineer with a year of experience building 0-1 products.\ncruising through life while getting paid to solve problems and build cool stuff",
+      "software engineer with a year of experience building 0-1 products.\nCruising through life tinkering around technology, solving problems through code. I am also an adventure junkie who likes to explore cultures and places. When I'm not coding, you can find me singing, dancing and writing about my adventures.",
     current_work:
       "building AI driven product analytics at Houseware, a b2b saas startup. im responsible to create, develop and maintain the service powering AI usecases",
     links: [
