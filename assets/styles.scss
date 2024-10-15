@@ -1,0 +1,24 @@
+---
+title: false
+styles: true
+---
+
+@import "alembic";
+
+a, 
+a:visited, 
+.header a:hover, 
+.header .nav--active a {
+  color: #20B2AA !important;
+}
+
+a:hover, 
+.header a {
+  color: #1A8F8A !important;
+}
+
+.typeset a, 
+.typeset a:hover {
+  background-image: linear-gradient(to bottom, rgba(32, 178, 170, 0.5) 0%, rgba(32, 178, 170, 0.5) 100%) !important;
+}
+

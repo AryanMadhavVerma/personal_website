@@ -1,0 +1,77 @@
+# Set theme
+remote_theme: daviddarnes/alembic@main
+
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+
+# Set plugins
+plugins:
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-feed
+- jekyll-commonmark
+- jekyll-include-cache
+- jemoji
+- jekyll-remote-theme
+
+# Site settings
+url: 'https://aryanmadhavverma.com'
+baseurl: ''
+title: "aryan's brain dump"
+description: "life, travel, software and everything in between"
+permalink: pretty
+logo: "/assets/images/blog-logo.png"
+
+# Pagination
+paginate: 5
+paginate_path: blog/page:num
+
+# Header nav
+navigation_header:
+- title: home
+  url: /
+- title: about
+  url: /about/
+- title: blog
+  url: /blog/
+
+# Footer nav
+navigation_footer:
+- title: go up
+  url: "#top"
+
+# Collections
+collections:
+  posts:
+    title: blog posts
+    output: true
+    description: "in chronological order"
+    feature_image: "/assets/images/top_beach_view_goa.png"
+
+# Collection settings
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post # Set the default layout for posts
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page # Set the default layout for pages
+
+
+sass:
+  style: compressed
+
+# Custom CSS
+custom_css: 
+  - /assets/css/custom.css
