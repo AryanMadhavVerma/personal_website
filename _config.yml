@@ -42,7 +42,7 @@ navigation_header:
 
 # Footer nav
 navigation_footer:
-- title: go up
+- title: home
   url: "#top"
 
 # Collections
